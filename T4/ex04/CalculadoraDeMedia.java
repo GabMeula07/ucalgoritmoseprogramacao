@@ -12,16 +12,15 @@ public class CalculadoraDeMedia {
     
 
         double media = (nota1 + nota2 ) / 2;
+
+        String msg = "Exame";
         
         if (media >= 6.0 ){
 
-            System.out.println("Aprovado");
-
-        }
-        else {
-            System.out.println("Exame");
+            msg = "Aprovado";
         }
 
+        System.out.println(msg);
         scanner.close();
     }
 }
